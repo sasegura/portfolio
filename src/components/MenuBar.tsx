@@ -41,7 +41,7 @@ export default function MenuBar() {
           <Link
             variant="button"
             color="text.primary"
-            href="/info"
+            onClick={() => navigate('/info')}
             sx={{ my: 1, mx: 1.5 }}
           >
             Info
