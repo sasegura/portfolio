@@ -1,12 +1,12 @@
 import Box from '@mui/material/Box';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Footer from './components/Footer';
 import MenuBar from './components/MenuBar';
 import AppRoutes from './components/Routes';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Box
         sx={{
           background: 'linear-gradient(to right bottom, #430089, #82ffa1)',
@@ -18,7 +18,7 @@ function App() {
         <AppRoutes />
         <Footer />
       </Box>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
