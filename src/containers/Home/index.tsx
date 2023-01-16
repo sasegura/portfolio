@@ -25,25 +25,12 @@ const tiers = [
   {
     title: 'React Query',
     subheader: 'Most popular',
-    description: 'Use of react query to get data from api',
+    description: 'Use of react query to get data from Restfull api ',
     features: ['get', 'list', 'loadding'],
     buttonText: 'Go to view',
     buttonVariant: 'contained',
     link: '/react-query',
   },
-  // {
-  //   title: 'Enterprise',
-  //   description: '30',
-  //   features: [
-  //     '50 users included',
-  //     '30 GB of storage',
-  //     'Help center access',
-  //     'Phone & email support',
-  //   ],
-  //   buttonText: 'Contact us',
-  //   buttonVariant: 'outlined',
-  //   link: '/home',
-  // },
 ];
 
 function PricingContent() {
@@ -69,7 +56,7 @@ function PricingContent() {
           color="text.primary"
           gutterBottom
         >
-          Porfolio
+          Portfolio
         </Typography>
         <Typography
           variant="h5"
@@ -88,11 +75,9 @@ function PricingContent() {
           Casos de ejemplos desarrollados por Sergio A. Segura Fernández
         </Typography>
       </Container>
-      {/* End hero unit */}
       <Container maxWidth="md" component="main">
         <Grid container spacing={5} alignItems="flex-end">
           {tiers.map((tier) => (
-            // Enterprise card is full width at sm breakpoint
             <Grid
               item
               key={tier.title}

@@ -9,7 +9,7 @@ function App() {
     <HashRouter>
       <Box
         sx={{
-          background: 'linear-gradient(to right bottom, #430089, #82ffa1)',
+          background: '#dad8fb',
           height: '100%',
           minHeight: '100vh',
         }}
