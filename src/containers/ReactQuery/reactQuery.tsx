@@ -1,12 +1,11 @@
 import React from 'react';
-import { useQuery, QueryClient, QueryClientProvider } from 'react-query';
+import { useQuery} from 'react-query';
 import Grid from '@mui/material/Grid';
 import CircularIndeterminate from './CircularIndeterminate';
 import ProductCard from './ProductCard';
 import { Typography } from '@mui/material';
 
-// Create a client
-const queryClient = new QueryClient();
+
 
 function Todos() {
   const getTodos = async () => {
@@ -51,10 +50,7 @@ function Todos() {
 
 function ReactQuery() {
   return (
-    // Provide the client to your App
-    <QueryClientProvider client={queryClient}>
       <Todos />
-    </QueryClientProvider>
   );
 }
 export default ReactQuery;
