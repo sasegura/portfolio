@@ -1,8 +1,12 @@
-import store from '../store';
-import { addTodo, removeTodo, toogleTodo } from '../store/todoSlice';
+import store from "../pages/TodoList/store";
+import {
+  addTodo,
+  removeTodo,
+  toogleTodo,
+} from "../pages/TodoList/store/todoSlice";
 
-describe('Redux unit test', () => {
-  it('Toogle a item from list with id', () => {
+describe("Redux unit test", () => {
+  it("Toogle a item from list with id", () => {
     let state = store.getState().todo;
     const initialBookCount = state.todos[0].toogle;
 
@@ -12,7 +16,7 @@ describe('Redux unit test', () => {
     expect(state.todos[0].toogle).toBe(!initialBookCount);
   });
 
-  it('Deletes a item from list with id', () => {
+  it("Deletes a item from list with id", () => {
     let state = store.getState().todo;
     const initialBookCount = state.todos.length;
 
@@ -22,11 +26,11 @@ describe('Redux unit test', () => {
     expect(state.todos.length).toBeLessThan(initialBookCount);
   });
 
-  it('Add a item from list with name', () => {
+  it("Add a item from list with name", () => {
     let state = store.getState().todo;
     const initialBookCount = state.todos.length;
 
-    store.dispatch(addTodo('1'));
+    store.dispatch(addTodo("1"));
     state = store.getState().todo;
 
     expect(state.todos.length).toBeGreaterThan(initialBookCount);
