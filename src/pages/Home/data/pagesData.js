@@ -14,28 +14,28 @@ Coded by www.creative-tim.com
 */
 
 const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages";
+  'https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages'
 
 export default [
   {
     image: `${imagesPrefix}/about-us.jpg`,
-    name: "ReactQuery",
-    route: "/reactquery",
+    name: 'ReactQuery',
+    route: '/reactquery'
   },
   {
     image: `${imagesPrefix}/contact.jpg`,
-    name: "Todo List with Redux toolkit",
-    route: "/todolist",
+    name: 'Todo List with Redux toolkit',
+    route: '/todolist'
   },
   {
     image:
-      "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/signin-basic.jpg",
-    name: "Sign In Page",
-    route: "/pages/authentication/sign-in",
+      'https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/signin-basic.jpg',
+    name: 'Sign In Page with Formik',
+    route: '/signupformik'
   },
   {
     image: `${imagesPrefix}/author.jpg`,
-    name: "Author Page",
-    route: "/pages/landing-pages/author",
-  },
-];
+    name: 'Author Page',
+    route: '/pages/landing-pages/author'
+  }
+]

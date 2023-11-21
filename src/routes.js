@@ -37,75 +37,81 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Icon from "@mui/material/Icon";
+import Icon from '@mui/material/Icon'
 
 // @mui icons
-import GitHubIcon from "@mui/icons-material/GitHub";
+import GitHubIcon from '@mui/icons-material/GitHub'
 
 // Pages
-import AboutUs from "layouts/pages/landing-pages/about-us";
-import ContactUs from "layouts/pages/landing-pages/contact-us";
-import Author from "layouts/pages/landing-pages/author";
-import ReactQuery from "pages/ReactQuery";
-import TodosList from "pages/TodoList";
-import HomePage from "pages/Home";
+import AboutUs from 'layouts/pages/landing-pages/about-us'
+import ContactUs from 'layouts/pages/landing-pages/contact-us'
+import Author from 'layouts/pages/landing-pages/author'
+import ReactQuery from 'pages/ReactQuery'
+import TodosList from 'pages/TodoList'
+import HomePage from 'pages/Home'
+import SignupFormikPage from 'pages/Formik'
 
 const routes = [
   {
-    name: "pages",
+    name: 'pages',
     icon: <Icon>dashboard</Icon>,
     columns: 1,
     rowsPerColumn: 2,
     collapse: [
       {
-        name: "",
+        name: '',
         collapse: [
           {
-            name: "Home",
-            route: "/",
-            component: <HomePage />,
+            name: 'Home',
+            route: '/',
+            component: <HomePage />
           },
           {
-            name: "React Query",
-            route: "/reactquery",
-            component: <ReactQuery />,
+            name: 'React Query',
+            route: '/reactquery',
+            component: <ReactQuery />
           },
           {
-            name: "Redux toolkit",
-            route: "/todolist",
-            component: <TodosList />,
+            name: 'Redux toolkit',
+            route: '/todolist',
+            component: <TodosList />
           },
-        ],
-      },
-    ],
+          {
+            name: 'Signup Formik',
+            route: '/signupformik',
+            component: <SignupFormikPage />
+          }
+        ]
+      }
+    ]
   },
-  {
-    name: "sections",
-    icon: <Icon>dashboard</Icon>,
-    columns: 1,
-    rowsPerColumn: 2,
-    collapse: [
-      {
-        collapse: [
-          {
-            name: "about us",
-            route: "/aboutus",
-            component: <AboutUs />,
-          },
-          {
-            name: "contact us",
-            route: "/pages/landing-pages/contact-us",
-            component: <ContactUs />,
-          },
-          {
-            name: "author",
-            route: "/pages/landing-pages/author",
-            component: <Author />,
-          },
-        ],
-      },
-    ],
-  },
+  // {
+  //   name: 'sections',
+  //   icon: <Icon>dashboard</Icon>,
+  //   columns: 1,
+  //   rowsPerColumn: 2,
+  //   collapse: [
+  //     {
+  //       collapse: [
+  //         {
+  //           name: 'about us',
+  //           route: '/aboutus',
+  //           component: <AboutUs />
+  //         },
+  //         {
+  //           name: 'contact us',
+  //           route: '/pages/landing-pages/contact-us',
+  //           component: <ContactUs />
+  //         },
+  //         {
+  //           name: 'author',
+  //           route: '/pages/landing-pages/author',
+  //           component: <Author />
+  //         }
+  //       ]
+  //     }
+  //   ]
+  // },
 
   // {
   //   name: "sections",
@@ -338,10 +344,10 @@ const routes = [
   },
   */
   {
-    name: "github",
+    name: 'github',
     icon: <GitHubIcon />,
-    href: "https://github.com/sasegura/portfolio",
-  },
-];
+    href: 'https://github.com/sasegura/portfolio'
+  }
+]
 
-export default routes;
+export default routes
