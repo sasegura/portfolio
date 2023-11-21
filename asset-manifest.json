@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/portfolio/static/js/main.5008acf7.js",
+    "main.js": "/portfolio/static/js/main.c43a835b.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/rotating-card-bg-front.jpeg": "/portfolio/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
     "static/media/macbook.png": "/portfolio/static/media/macbook.e0a8c5d5cc02d71b6d86.png",
-    "static/media/city-profile.jpg": "/portfolio/static/media/city-profile.4d64bba97c3d1757379e.jpg",
     "static/media/bg-presentation.jpg": "/portfolio/static/media/bg-presentation.889630297390d27e8dfb.jpg",
     "static/media/rotating-card-bg-back.jpeg": "/portfolio/static/media/rotating-card-bg-back.183088de91adb283a9ae.jpeg",
     "static/media/blog-9-4.jpg": "/portfolio/static/media/blog-9-4.de736e0b751f453415a5.jpg",
@@ -29,11 +28,11 @@
     "static/media/logo-netflix.svg": "/portfolio/static/media/logo-netflix.432ed6b5c31b9bcab9a38e32bf46a1e9.svg",
     "index.html": "/portfolio/index.html",
     "main.f855e6bc.css.map": "/portfolio/static/css/main.f855e6bc.css.map",
-    "main.5008acf7.js.map": "/portfolio/static/js/main.5008acf7.js.map",
+    "main.c43a835b.js.map": "/portfolio/static/js/main.c43a835b.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.5008acf7.js"
+    "static/js/main.c43a835b.js"
   ]
 }
