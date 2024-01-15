@@ -13,29 +13,36 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
+import translations from 'assets/images/bg-coworking.jpeg'
+import todoList from 'assets/images/examples/testimonial-6-2.jpg'
+
 const imagesPrefix =
-  'https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/pages'
+  'https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation'
 
 export default [
   {
-    image: `${imagesPrefix}/about-us.jpg`,
+    image: `${imagesPrefix}/pages/about-us.jpg`,
     name: 'ReactQuery',
     route: '/reactquery'
   },
   {
-    image: `${imagesPrefix}/contact.jpg`,
+    image: todoList,
     name: 'Todo List with Redux toolkit',
     route: '/todolist'
   },
   {
-    image:
-      'https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/account/signin-basic.jpg',
+    image: `${imagesPrefix}/account/signin-basic.jpg`,
     name: 'Sign In Page with Formik',
     route: '/signupformik'
   },
   {
-    image: `${imagesPrefix}/author.jpg`,
+    image: `${imagesPrefix}/pages/author.jpg`,
     name: 'Author Page',
     route: '/pages/landing-pages/author'
+  },
+  {
+    image: translations,
+    name: 'Translation Page',
+    route: '/translations'
   }
 ]

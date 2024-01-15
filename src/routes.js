@@ -43,13 +43,11 @@ import Icon from '@mui/material/Icon'
 import GitHubIcon from '@mui/icons-material/GitHub'
 
 // Pages
-import AboutUs from 'layouts/pages/landing-pages/about-us'
-import ContactUs from 'layouts/pages/landing-pages/contact-us'
-import Author from 'layouts/pages/landing-pages/author'
 import ReactQuery from 'pages/ReactQuery'
 import TodosList from 'pages/TodoList'
 import HomePage from 'pages/Home'
 import SignupFormikPage from 'pages/Formik'
+import Translations from 'pages/Translations'
 
 const routes = [
   {
@@ -80,6 +78,11 @@ const routes = [
             name: 'Signup Formik',
             route: '/signupformik',
             component: <SignupFormikPage />
+          },
+          {
+            name: 'Translations',
+            route: '/translations',
+            component: <Translations />
           }
         ]
       }

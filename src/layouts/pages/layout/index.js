@@ -1,22 +1,22 @@
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Card from "@mui/material/Card";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Card from '@mui/material/Card'
 
 // Material Kit 2 React components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
+import DefaultFooter from 'examples/Footers/DefaultFooter'
 
 // Routes
-import routes from "routes";
-import footerRoutes from "footer.routes";
+import routes from 'routes'
+import footerRoutes from 'footer.routes'
 
 // Images
-import bgImage from "assets/images/bg-about-us.jpg";
+import bgImage from 'assets/images/bg-about-us.jpg'
 
 const Layout = ({ children }) => {
   return (
@@ -26,18 +26,12 @@ const Layout = ({ children }) => {
         minHeight="55vh"
         width="100%"
         sx={{
-          backgroundImage: ({
-            functions: { linearGradient, rgba },
-            palette: { gradients },
-          }) =>
-            `${linearGradient(
-              rgba(gradients.dark.main, 0.6),
-              rgba(gradients.dark.state, 0.6)
-            )}, url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          display: "grid",
-          placeItems: "center",
+          backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
+            `${linearGradient(rgba(gradients.dark.main, 0.6), rgba(gradients.dark.state, 0.6))}, url(${bgImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          display: 'grid',
+          placeItems: 'center'
         }}
       >
         <Container>
@@ -49,15 +43,15 @@ const Layout = ({ children }) => {
             justifyContent="center"
             alignItems="center"
             flexDirection="column"
-            sx={{ mx: "auto", textAlign: "center" }}
+            sx={{ mx: 'auto', textAlign: 'center' }}
           >
             <MKTypography
               variant="h1"
               color="white"
               sx={({ breakpoints, typography: { size } }) => ({
-                [breakpoints.down("md")]: {
-                  fontSize: size["3xl"],
-                },
+                [breakpoints.down('md')]: {
+                  fontSize: size['3xl']
+                }
               })}
             >
               "Más Allá de las Palabras: Un Recorrido Visual por mi Trabajo"
@@ -72,7 +66,7 @@ const Layout = ({ children }) => {
           mt: -8,
           mb: 4,
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
-          minHeight: 300,
+          minHeight: 300
         }}
       >
         {children}
@@ -81,7 +75,7 @@ const Layout = ({ children }) => {
         <DefaultFooter content={footerRoutes} />
       </MKBox>
     </>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
