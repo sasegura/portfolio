@@ -54,7 +54,8 @@ const Layout = ({ children }) => {
                 }
               })}
             >
-              "Más Allá de las Palabras: Un Recorrido Visual por mi Trabajo"
+              {/* "Más Allá de las Palabras: Un Recorrido Visual por mi Trabajo" */}
+              "Beyond Words: A Visual Tour through my Work"
             </MKTypography>
           </Grid>
         </Container>

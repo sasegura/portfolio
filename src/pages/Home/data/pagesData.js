@@ -38,7 +38,7 @@ export default [
   {
     image: `${imagesPrefix}/pages/author.jpg`,
     name: 'Author Page',
-    route: '/pages/landing-pages/author'
+    route: '/author'
   },
   {
     image: translations,

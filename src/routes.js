@@ -48,6 +48,7 @@ import TodosList from 'pages/TodoList'
 import HomePage from 'pages/Home'
 import SignupFormikPage from 'pages/Formik'
 import Translations from 'pages/Translations'
+import Author from 'pages/Author'
 
 const routes = [
   {
@@ -83,6 +84,11 @@ const routes = [
             name: 'Translations',
             route: '/translations',
             component: <Translations />
+          },
+          {
+            name: 'Author',
+            route: '/author',
+            component: <Author />
           }
         ]
       }
