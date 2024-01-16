@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/portfolio/static/js/main.564ca14e.js",
+    "main.js": "/portfolio/static/js/main.fc65aa09.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/rotating-card-bg-front.jpeg": "/portfolio/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
+    "static/media/roiback.jpeg": "/portfolio/static/media/roiback.ab50c98a939f53ca0ed2.jpeg",
     "static/media/bg-coworking.jpeg": "/portfolio/static/media/bg-coworking.06bccc47fe6ae5366bf8.jpeg",
+    "static/media/knowmad-mood.png": "/portfolio/static/media/knowmad-mood.a991badf1ed53ca8864c.png",
     "static/media/bg-presentation.jpg": "/portfolio/static/media/bg-presentation.889630297390d27e8dfb.jpg",
     "static/media/rotating-card-bg-back.jpeg": "/portfolio/static/media/rotating-card-bg-back.183088de91adb283a9ae.jpeg",
     "static/media/waves-white.svg": "/portfolio/static/media/waves-white.7e7579c6e93ead70064fb4e8dd899f32.svg",
+    "static/media/blog2.jpg": "/portfolio/static/media/blog2.aba7a3cb94805e9557d1.jpg",
+    "static/media/geoactio.webp": "/portfolio/static/media/geoactio.cec4876dffd988f3d274.webp",
     "static/media/bg-about-us.jpg": "/portfolio/static/media/bg-about-us.cf9a123e2a3d371d53da.jpg",
     "static/media/testimonial-6-2.jpg": "/portfolio/static/media/testimonial-6-2.21f2048f0b89919090f0.jpg",
+    "static/media/author.jpeg": "/portfolio/static/media/author.faceff478c77df4514b9.jpeg",
     "static/media/logo-digitalocean.svg": "/portfolio/static/media/logo-digitalocean.a1f147b01387952368e3180edf221c96.svg",
     "static/media/logo-vodafone.svg": "/portfolio/static/media/logo-vodafone.b3e8486c0cac220bc3a31c9eab049b21.svg",
     "static/media/logo-facebook.svg": "/portfolio/static/media/logo-facebook.106d2ac0ece089e3c6def0a36c283ef7.svg",
@@ -17,11 +22,11 @@
     "static/media/logo-nasa.svg": "/portfolio/static/media/logo-nasa.c5d11f8820bfde5fd64db0074156e06c.svg",
     "index.html": "/portfolio/index.html",
     "main.f855e6bc.css.map": "/portfolio/static/css/main.f855e6bc.css.map",
-    "main.564ca14e.js.map": "/portfolio/static/js/main.564ca14e.js.map",
+    "main.fc65aa09.js.map": "/portfolio/static/js/main.fc65aa09.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.564ca14e.js"
+    "static/js/main.fc65aa09.js"
   ]
 }
