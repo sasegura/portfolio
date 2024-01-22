@@ -1,3 +1,4 @@
+import Author from 'pages/Author'
 import SignupFormikPage from 'pages/Formik'
 import HomePage from 'pages/Home'
 import ReactQuery from 'pages/ReactQuery'
@@ -9,5 +10,6 @@ export const pagesRoutes = [
   { name: 'ReactQuery', path: '/reactquery', element: <ReactQuery /> },
   { name: 'TodosList', path: '/todolist', element: <TodosList /> },
   { name: 'SignupFormikPage', path: '/signupformik', element: <SignupFormikPage /> },
-  { name: 'Translations', path: '/translations', element: <Translations /> }
+  { name: 'Translations', path: '/translations', element: <Translations /> },
+  { name: 'Author', path: '/author', element: <Author /> }
 ]

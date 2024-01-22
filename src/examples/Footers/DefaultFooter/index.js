@@ -14,40 +14,40 @@ Coded by www.creative-tim.com
 */
 
 // react-router-dom components
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 // prop-types is a library for typechecking of props.
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Material Kit 2 React components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 function DefaultFooter({ content }) {
-  const { brand, socials, menus, copyright, pages } = content;
+  const { brand, socials, menus, copyright, pages } = content
 
   return (
     <MKBox component="footer">
       <Container>
         <Grid container spacing={3}>
-          <Grid item xs={12} md={3} sx={{ ml: "auto", mb: 3 }}>
+          <Grid item xs={12} md={3} sx={{ ml: 'auto', mb: 3 }}>
             <MKBox>
+              <Link to={'/'}>
+                <MKBox component="img" src={brand.image} alt={'portfolio'} maxWidth="2rem" mb={2} />
+              </Link>
+              <MKTypography variant="h6">Sergio´s portfolio</MKTypography>
+            </MKBox>
+            {/* <MKBox>
               <Link to={brand.route}>
-                <MKBox
-                  component="img"
-                  src={brand.image}
-                  alt={brand.name}
-                  maxWidth="2rem"
-                  mb={2}
-                />
+                <MKBox component="img" src={brand.image} alt={brand.name} maxWidth="2rem" mb={2} />
               </Link>
               <MKTypography variant="h6">{brand.name}</MKTypography>
-            </MKBox>
-            <MKBox display="flex" alignItems="center" mt={3}>
+            </MKBox> */}
+            {/* <MKBox display="flex" alignItems="center" mt={3}>
               {socials.map(({ icon, link }, key) => (
                 <MKTypography
                   key={link}
@@ -63,54 +63,57 @@ function DefaultFooter({ content }) {
                   {icon}
                 </MKTypography>
               ))}
-            </MKBox>
+            </MKBox> */}
           </Grid>
-          <Grid item xs={12} md={3} sx={{ ml: "auto", mb: 3 }}>
-            <MKTypography
-              display="block"
-              variant="button"
-              fontWeight="bold"
-              textTransform="capitalize"
-              mb={1}
-            >
+          <Grid item xs={12} md={3} sx={{ ml: 'auto', mb: 3 }}>
+            {/* <MKTypography display="block" variant="button" fontWeight="bold" textTransform="capitalize" mb={1}>
               Pages
-            </MKTypography>
-            <MKBox component="ul" p={0} m={0} sx={{ listStyle: "none" }}>
-              {pages.map(({ name, link }, key) => (
-                <MKBox key={name} component="li" p={0} m={0} lineHeight={1.25}>
-                  <MKTypography
-                    component={Link}
-                    to={link}
-                    variant="button"
-                    fontWeight="regular"
-                    textTransform="capitalize"
-                  >
-                    {name}
-                  </MKTypography>
-                </MKBox>
-              ))}
+            </MKTypography> */}
+            <MKBox component="ul" p={0} m={0} sx={{ listStyle: 'none' }}>
+              {pages.map(({ name, link }, key) =>
+                key < 3 ? (
+                  <MKBox key={name} component="li" p={0} m={0} lineHeight={1.25}>
+                    <MKTypography
+                      component={Link}
+                      to={link}
+                      variant="button"
+                      fontWeight="regular"
+                      textTransform="capitalize"
+                    >
+                      {name}
+                    </MKTypography>
+                  </MKBox>
+                ) : null
+              )}
             </MKBox>
           </Grid>
-          {menus.map(({ name: title, items }) => (
+          <Grid item xs={12} md={3} sx={{ ml: 'auto', mb: 3 }}>
+            <MKBox component="ul" p={0} m={0} sx={{ listStyle: 'none' }}>
+              {pages.map(({ name, link }, key) =>
+                key >= 3 ? (
+                  <MKBox key={name} component="li" p={0} m={0} lineHeight={1.25}>
+                    <MKTypography
+                      component={Link}
+                      to={link}
+                      variant="button"
+                      fontWeight="regular"
+                      textTransform="capitalize"
+                    >
+                      {name}
+                    </MKTypography>
+                  </MKBox>
+                ) : null
+              )}
+            </MKBox>
+          </Grid>
+          {/* {menus.map(({ name: title, items }) => (
             <Grid key={title} item xs={6} md={2} sx={{ mb: 3 }}>
-              <MKTypography
-                display="block"
-                variant="button"
-                fontWeight="bold"
-                textTransform="capitalize"
-                mb={1}
-              >
+              <MKTypography display="block" variant="button" fontWeight="bold" textTransform="capitalize" mb={1}>
                 {title}
               </MKTypography>
-              <MKBox component="ul" p={0} m={0} sx={{ listStyle: "none" }}>
+              <MKBox component="ul" p={0} m={0} sx={{ listStyle: 'none' }}>
                 {items.map(({ name, route, href }) => (
-                  <MKBox
-                    key={name}
-                    component="li"
-                    p={0}
-                    m={0}
-                    lineHeight={1.25}
-                  >
+                  <MKBox key={name} component="li" p={0} m={0} lineHeight={1.25}>
                     {href ? (
                       <MKTypography
                         component="a"
@@ -138,21 +141,19 @@ function DefaultFooter({ content }) {
                 ))}
               </MKBox>
             </Grid>
-          ))}
-          <Grid item xs={12} sx={{ textAlign: "center", my: 3 }}>
+          ))} */}
+          <Grid item xs={12} sx={{ textAlign: 'center', my: 3 }}>
             {copyright}
           </Grid>
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
 // Typechecking props for the DefaultFooter
 DefaultFooter.propTypes = {
-  content: PropTypes.objectOf(
-    PropTypes.oneOfType([PropTypes.object, PropTypes.array])
-  ).isRequired,
-};
+  content: PropTypes.objectOf(PropTypes.oneOfType([PropTypes.object, PropTypes.array])).isRequired
+}
 
-export default DefaultFooter;
+export default DefaultFooter

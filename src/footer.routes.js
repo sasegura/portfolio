@@ -1,80 +1,80 @@
 // @mui icons
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+import FacebookIcon from '@mui/icons-material/Facebook'
+import TwitterIcon from '@mui/icons-material/Twitter'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import YouTubeIcon from '@mui/icons-material/YouTube'
 
 // Material Kit 2 React components
-import MKTypography from "components/MKTypography";
+import MKTypography from 'components/MKTypography'
 
 // Images
-import logoCT from "assets/images/logo-ct-dark.png";
-import { pagesRoutes } from "utils/const/pageRoutes";
+import logoCT from 'assets/images/logo-ct-dark.png'
+import { pagesRoutes } from 'utils/const/pageRoutes'
 
-const date = new Date().getFullYear();
+const date = new Date().getFullYear()
 
 export default {
   brand: {
-    name: "Material Kit 2",
+    name: 'Material Kit 2',
     image: logoCT,
-    route: "/",
+    route: '/'
   },
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: 'https://www.facebook.com/CreativeTim/'
     },
     {
       icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
+      link: 'https://twitter.com/creativetim'
     },
     {
       icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
+      link: 'https://github.com/creativetimofficial'
     },
     {
       icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
-    },
+      link: 'https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w'
+    }
   ],
   pages: pagesRoutes.map(({ name, path }) => ({
     name,
-    link: path,
+    link: path
   })),
   menus: [
     {
-      name: "resources",
+      name: 'resources',
       items: [
-        { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
+        { name: 'illustrations', href: 'https://iradesign.io/' },
+        { name: 'bits & snippets', href: 'https://www.creative-tim.com/bits' },
         {
-          name: "affiliate program",
-          href: "https://www.creative-tim.com/affiliates/new",
-        },
-      ],
+          name: 'affiliate program',
+          href: 'https://www.creative-tim.com/affiliates/new'
+        }
+      ]
     },
 
     {
-      name: "legal",
+      name: 'legal',
       items: [
         {
-          name: "terms & conditions",
-          href: "https://www.creative-tim.com/terms",
+          name: 'terms & conditions',
+          href: 'https://www.creative-tim.com/terms'
         },
         {
-          name: "privacy policy",
-          href: "https://www.creative-tim.com/privacy",
+          name: 'privacy policy',
+          href: 'https://www.creative-tim.com/privacy'
         },
         {
-          name: "licenses (EULA)",
-          href: "https://www.creative-tim.com/license",
-        },
-      ],
-    },
+          name: 'licenses (EULA)',
+          href: 'https://www.creative-tim.com/license'
+        }
+      ]
+    }
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      All rights reserved. Copyright &copy; {date} Material Kit by{' '}
       <MKTypography
         component="a"
         href="https://www.creative-tim.com"
@@ -87,5 +87,5 @@ export default {
       </MKTypography>
       .
     </MKTypography>
-  ),
-};
+  )
+}
