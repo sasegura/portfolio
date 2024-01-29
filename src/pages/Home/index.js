@@ -36,11 +36,10 @@ function HomePage() {
           <Grid item xs={12} lg={3}>
             <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
               <MKTypography variant="h3" fontWeight="bold" mb={1}>
-                Presentation Pages for Company, Landing Pages, Blogs and Support
+                Presentation Pages
               </MKTypography>
               <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
-                These is just a small selection of the multiple possibitilies you have. Focus on the business, not on
-                the design.
+                This is just a small selection of my work. I have used Material UI for the design of this page.
               </MKTypography>
             </MKBox>
           </Grid>
