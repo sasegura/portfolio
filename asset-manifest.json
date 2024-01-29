@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/portfolio/static/js/main.82cb9ab1.js",
+    "main.css": "/portfolio/static/css/main.2bd67bed.css",
+    "main.js": "/portfolio/static/js/main.88569b6e.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/rotating-card-bg-front.jpeg": "/portfolio/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
     "static/media/roiback.jpeg": "/portfolio/static/media/roiback.ab50c98a939f53ca0ed2.jpeg",
@@ -15,18 +15,21 @@
     "static/media/bg-about-us.jpg": "/portfolio/static/media/bg-about-us.cf9a123e2a3d371d53da.jpg",
     "static/media/testimonial-6-2.jpg": "/portfolio/static/media/testimonial-6-2.21f2048f0b89919090f0.jpg",
     "static/media/author.jpeg": "/portfolio/static/media/author.faceff478c77df4514b9.jpeg",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/logo-digitalocean.svg": "/portfolio/static/media/logo-digitalocean.a1f147b01387952368e3180edf221c96.svg",
     "static/media/logo-vodafone.svg": "/portfolio/static/media/logo-vodafone.b3e8486c0cac220bc3a31c9eab049b21.svg",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/logo-facebook.svg": "/portfolio/static/media/logo-facebook.106d2ac0ece089e3c6def0a36c283ef7.svg",
     "static/media/logo-apple.svg": "/portfolio/static/media/logo-apple.f9c2682e61da98dfbc703a4dccd0d064.svg",
     "static/media/logo-nasa.svg": "/portfolio/static/media/logo-nasa.c5d11f8820bfde5fd64db0074156e06c.svg",
     "index.html": "/portfolio/index.html",
-    "main.f855e6bc.css.map": "/portfolio/static/css/main.f855e6bc.css.map",
-    "main.82cb9ab1.js.map": "/portfolio/static/js/main.82cb9ab1.js.map",
+    "main.2bd67bed.css.map": "/portfolio/static/css/main.2bd67bed.css.map",
+    "main.88569b6e.js.map": "/portfolio/static/js/main.88569b6e.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.82cb9ab1.js"
+    "static/css/main.2bd67bed.css",
+    "static/js/main.88569b6e.js"
   ]
 }
