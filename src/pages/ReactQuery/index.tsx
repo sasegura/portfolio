@@ -45,7 +45,7 @@ function ReactQuery() {
     <QueryClientProvider client={queryClient}>
       <PagesLayout
         title={'React Query / TanStack Query'}
-        text={'Obtención de datos de una api externa utilizando ReactQuery como gestor de estados del servidor.'}
+        text={'Getting data from an external api using ReactQuery as a server state handler.'}
       >
         <Todos />
       </PagesLayout>

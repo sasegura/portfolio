@@ -3,6 +3,7 @@ import SignupFormikPage from 'pages/Formik'
 import HomePage from 'pages/Home'
 import ReactQuery from 'pages/ReactQuery'
 import ReducerHook from 'pages/ReducerHook'
+import Set from 'pages/Set'
 import TodosList from 'pages/TodoList'
 import Translations from 'pages/Translations'
 
@@ -13,5 +14,6 @@ export const pagesRoutes = [
   { name: 'SignupFormikPage', path: '/signupformik', element: <SignupFormikPage /> },
   { name: 'Translations', path: '/translations', element: <Translations /> },
   { name: 'Author', path: '/author', element: <Author /> },
-  { name: 'UseReducer', path: '/usereducer', element: <ReducerHook /> }
+  { name: 'UseReducer', path: '/usereducer', element: <ReducerHook /> },
+  { name: 'Set', path: '/set', element: <Set /> }
 ]

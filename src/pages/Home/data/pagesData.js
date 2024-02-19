@@ -15,6 +15,7 @@ Coded by www.creative-tim.com
 
 import translations from 'assets/images/bg-coworking.jpeg'
 import useReducer from 'assets/images/useReducer.png'
+import set from 'assets/images/Set-in-JavaScript.jpg'
 import todoList from 'assets/images/examples/testimonial-6-2.jpg'
 
 const imagesPrefix =
@@ -50,6 +51,11 @@ const data = [
     image: useReducer,
     name: 'UseReducer Hook Page',
     route: '/usereducer'
+  },
+  {
+    image: set,
+    name: 'Unique Array - Set Page',
+    route: '/set'
   }
 ]
 

@@ -50,6 +50,7 @@ import SignupFormikPage from 'pages/Formik'
 import Translations from 'pages/Translations'
 import Author from 'pages/Author'
 import ReducerHook from 'pages/ReducerHook'
+import Set from 'pages/Set'
 
 const routes = [
   {
@@ -95,6 +96,11 @@ const routes = [
             name: 'UseReducer Hook',
             route: '/usereducer',
             component: <ReducerHook />
+          },
+          {
+            name: 'Set ',
+            route: '/set',
+            component: <Set />
           }
         ]
       }

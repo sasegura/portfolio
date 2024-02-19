@@ -71,7 +71,7 @@ function DefaultFooter({ content }) {
             </MKTypography> */}
             <MKBox component="ul" p={0} m={0} sx={{ listStyle: 'none' }}>
               {pages.map(({ name, link }, key) =>
-                key < 3 ? (
+                key < 4 ? (
                   <MKBox key={name} component="li" p={0} m={0} lineHeight={1.25}>
                     <MKTypography
                       component={Link}
@@ -90,7 +90,7 @@ function DefaultFooter({ content }) {
           <Grid item xs={12} md={3} sx={{ ml: 'auto', mb: 3 }}>
             <MKBox component="ul" p={0} m={0} sx={{ listStyle: 'none' }}>
               {pages.map(({ name, link }, key) =>
-                key >= 3 ? (
+                key >= 4 ? (
                   <MKBox key={name} component="li" p={0} m={0} lineHeight={1.25}>
                     <MKTypography
                       component={Link}
