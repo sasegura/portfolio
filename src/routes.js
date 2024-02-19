@@ -49,6 +49,7 @@ import HomePage from 'pages/Home'
 import SignupFormikPage from 'pages/Formik'
 import Translations from 'pages/Translations'
 import Author from 'pages/Author'
+import ReducerHook from 'pages/ReducerHook'
 
 const routes = [
   {
@@ -89,6 +90,11 @@ const routes = [
             name: 'Author',
             route: '/author',
             component: <Author />
+          },
+          {
+            name: 'UseReducer Hook',
+            route: '/usereducer',
+            component: <ReducerHook />
           }
         ]
       }

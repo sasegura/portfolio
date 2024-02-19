@@ -14,12 +14,13 @@ Coded by www.creative-tim.com
 */
 
 import translations from 'assets/images/bg-coworking.jpeg'
+import useReducer from 'assets/images/useReducer.png'
 import todoList from 'assets/images/examples/testimonial-6-2.jpg'
 
 const imagesPrefix =
   'https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation'
 
-export default [
+const data = [
   {
     image: `${imagesPrefix}/pages/about-us.jpg`,
     name: 'ReactQuery',
@@ -44,5 +45,12 @@ export default [
     image: translations,
     name: 'Translation Page',
     route: '/translations'
+  },
+  {
+    image: useReducer,
+    name: 'UseReducer Hook Page',
+    route: '/usereducer'
   }
 ]
+
+export default data
