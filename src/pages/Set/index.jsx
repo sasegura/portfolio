@@ -8,10 +8,9 @@ import SetOperations from './setsOperations'
 
 const Form = ({ value, setValue, AddValue }) => {
   return (
-    <Grid container xs={12} spacing={2}>
+    <Grid container item xs={12} spacing={2}>
       <Grid item sm={8} md={6}>
         <TextField
-          id="standard-basic"
           variant="standard"
           onChange={e => setValue(e.target.value)}
           value={value}
