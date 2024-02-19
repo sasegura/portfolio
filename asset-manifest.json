@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2bd67bed.css",
-    "main.js": "/portfolio/static/js/main.79f5b4f8.js",
+    "main.js": "/portfolio/static/js/main.ea5baad3.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/rotating-card-bg-front.jpeg": "/portfolio/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
     "static/media/roiback.jpeg": "/portfolio/static/media/roiback.ab50c98a939f53ca0ed2.jpeg",
@@ -31,11 +31,11 @@
     "static/media/difference.svg": "/portfolio/static/media/difference.3e6e5afe87257bd7a087a5a70beec3bd.svg",
     "static/media/intersection.svg": "/portfolio/static/media/intersection.305bf35800e0262a33af2ebe26c9b725.svg",
     "main.2bd67bed.css.map": "/portfolio/static/css/main.2bd67bed.css.map",
-    "main.79f5b4f8.js.map": "/portfolio/static/js/main.79f5b4f8.js.map",
+    "main.ea5baad3.js.map": "/portfolio/static/js/main.ea5baad3.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bd67bed.css",
-    "static/js/main.79f5b4f8.js"
+    "static/js/main.ea5baad3.js"
   ]
 }
